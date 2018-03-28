@@ -1,0 +1,5 @@
+{
+    "board": "arduino:avr:mega",
+    "port": "/dev/ttyACM1",
+    "configuration": "cpu=atmega2560"
+}
