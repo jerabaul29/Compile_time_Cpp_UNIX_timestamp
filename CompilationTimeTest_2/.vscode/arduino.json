@@ -1,0 +1,4 @@
+{
+    "port": "/dev/ttyACM1",
+    "board": "arduino:avr:megaADK"
+}
