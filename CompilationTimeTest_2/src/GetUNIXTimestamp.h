@@ -2,8 +2,16 @@
  *
  * NOTE: this code comes from:
  * https://stackoverflow.com/questions/10538444/do-you-know-of-a-c-macro-to-compute-unix-time-and-date
+ * authored by:
+ * Alexis Wilke
+ * 
+ * This should take correctly care of the Gregorian calendar 29th February, 100 and 400 second leaps.
+ * This should correspond to the POSIX/UNIX definition of timestamp.
  *  
  */
+
+#ifndef GET_UNIX_TIMESTAMP_
+#define GET_UNIX_TIMESTAMP_
 
 // helper (Days in February)
 #define _SNAP_UNIX_TIMESTAMP_FDAY(year) \
@@ -39,3 +47,5 @@
                 - ((year - 1901LL) / 100LL) * 86400LL \
                 + ((year - 1601LL) / 400LL) * 86400LL \
     )
+
+#endif

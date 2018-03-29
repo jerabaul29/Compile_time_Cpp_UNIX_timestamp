@@ -12,11 +12,11 @@
  * "MMM DD YYYY", respectively. The actual value can be calculated by the C compiler at compile time
  * as all inputs are literals. MAKE SURE TO ENABLE OPTIMISATION!
  * 
- * NOTE by Jean Rabault START:
+ * NOTE by Jean Rabault START: ---------------------------------------------------------------------
  * This should work great for times around 2018 when I write this note, but it will probably have
- * problems far in the future (or in the past): the Gregorian calender 100 / 400 years shift is not
+ * problems far in the future (or in the past): the Gregorian calender 100 and 400 years shifts are not
  * taken into account, only the 4 years 29th february day.
- * NOTE by Jean Rabault END:
+ * NOTE by Jean Rabault END  : ---------------------------------------------------------------------
  * 
  */ 
 
