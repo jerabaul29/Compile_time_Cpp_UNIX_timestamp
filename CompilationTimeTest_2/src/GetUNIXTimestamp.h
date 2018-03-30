@@ -5,8 +5,10 @@
  * authored by:
  * Alexis Wilke
  * 
+ * NOTE by Jean Rabault START: ---------------------------------------------------------------------
  * This should take correctly care of the Gregorian calendar 29th February, 100 and 400 second leaps.
  * This should correspond to the POSIX/UNIX definition of timestamp.
+ * NOTE by Jean Rabault END  : ---------------------------------------------------------------------
  *  
  */
 

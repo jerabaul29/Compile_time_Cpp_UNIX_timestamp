@@ -10,6 +10,8 @@
  * 
  * build_flags = !echo "-D COMPILE_TIME="$(date +%s)"UL"
  * 
+ * The build flag is set in the ../platformio.ini platformio configuration file.
+ * 
  * 
  * NOTE START: ----------------------------------------------------------
  * 

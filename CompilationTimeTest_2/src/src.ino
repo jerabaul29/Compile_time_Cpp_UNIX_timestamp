@@ -6,7 +6,9 @@
  * Getting the UNIX timestamp in a program, using purely macros and the
  * __TIME__ compiler defined macro. CAREFUL, __TIME__ is using the
  * timezone of your computer; if your computer is not on UTC, then the
- * UNIX timestamp will not be UTC either (but in time zone of your computer)
+ * UNIX timestamp will not be UTC either (but in time zone of your computer).
+ * To my knowledge, there is no way to get the time zone from a macro in the
+ * file. Contact me if you know of a way (open an issue on the repo).
  * 
  * NOTE START: ----------------------------------------------------------
  * 
