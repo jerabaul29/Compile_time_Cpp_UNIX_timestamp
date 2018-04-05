@@ -1,13 +1,18 @@
 /* 
  *
  * Created: 29.03.2018
- * Author: Jean Rabault, assembled from the code released on Stackoverflow by:
+ *
+ * Authors:
+ * 
+ * Assembled from the code released on Stackoverflow by:
  *   Dennis (instructable.com/member/nqtronix)    |   https://stackoverflow.com/questions/23032002/c-c-how-to-get-integer-unix-timestamp-of-build-time-not-string
  * and
  *   Alexis Wilke                                 |   https://stackoverflow.com/questions/10538444/do-you-know-of-a-c-macro-to-compute-unix-time-and-date
+ *
+ * Assembled by Jean Rabault
  * 
  * UNIX_TIMESTAMP gives the UNIX timestamp (unsigned long integer of seconds since 1st Jan 1970) of compilation from macros using the compiler defined __TIME__ macro.
- * This should include all the Gregorian calendar corrections, in particular the 29ths of February, 100 and 400 second leaps.
+ * This should include Gregorian calendar leap days, in particular the 29ths of February, 100 and 400 years modulo leaps.
  * 
  * Careful: __TIME__ is the local time of the computer, NOT the UTC time in general!
  * 
