@@ -1,4 +1,4 @@
-#Compilation Time
+# Compilation Time
 
 This directory contains examples of how to obtain compilation time in UNIX integer format in a C++ program. Two methods are shown:
 
