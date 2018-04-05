@@ -1,8 +1,9 @@
 #Compilation Time
 
-This directory contains examples of how to obtain compilation time in UNIX integer format in a C++ program. Two methods are shown:
+This directory contains examples of how to obtain compilation time in UNIX integer format in a C++ program. Three methods are shown:
 
-- Using a compilation flag, in *CompilationTime_BuildFlag*
+- Using a compilation flag with g++, in the *C++_compile_flag* folder.
+- Using a compilation flag, in *CompilationTime_BuildFlag*, for the Platformio IDE (embedded / uC applications)
 - Using only macros of *__TIME__* and *__DATE__*, in *CompilationTime_PureMacro*.
 
 The examples for both methods are projects written using the Platformio IDE with Visual Studio Code. The source code is available in the *src* folder of each project.
